@@ -12,7 +12,7 @@ export function getPINs(observed) {
   const results = [];
 
   for (let n of observed.toString()) {
-    for (let row = 0; row < 3; row++) {
+    for (let row = 0; row < 4; row++) {
       const position = layout[row].indexOf(+n);
       if (position === -1) continue;
       const numberResult = [];
@@ -53,7 +53,7 @@ const getVariations = (results, index) => {
         variations.push(`${results[index][i]}${v}`);
       });
     } else {
-      variations.push(results[index][i]);
+      variations.push(results[index][i].toString());
     }
   }
   return variations;

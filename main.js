@@ -1,3 +1,3 @@
 import { getPINs } from "./the-observed-pin.js";
 
-getPINs(144);
+console.log(getPINs(0));
