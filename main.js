@@ -1,3 +1,12 @@
-import { checkRange } from "./katas/rank-3/check-range.js";
+import { integerSquareRoot } from "./katas/rank-2/integer-square-root.js";
 
-console.log(checkRange([2, 5, 6, 7, 1, 3, 4, 11, 56, 49], 1, 7));
+// console.log(
+//   integerSquareRoot(
+//     "12323309809809534545458098709854808654685688665486860956865654654654324238000980980980",
+//   ),
+// );
+console.log(
+  integerSquareRoot(
+    "12323309809809534545458098709854808654685688665486860956865654654654324238000980980980",
+  ),
+);
