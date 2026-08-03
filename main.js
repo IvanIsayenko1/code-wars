@@ -1,12 +1,3 @@
-import { integerSquareRoot } from "./katas/rank-2/integer-square-root.js";
+import { longest_palindrome } from "./katas/rank-4/longest-palidrome.js";
 
-// console.log(
-//   integerSquareRoot(
-//     "12323309809809534545458098709854808654685688665486860956865654654654324238000980980980",
-//   ),
-// );
-console.log(
-  integerSquareRoot(
-    "12323309809809534545458098709854808654685688665486860956865654654654324238000980980980",
-  ),
-);
+console.log(longest_palindrome("banana"));
