@@ -1,3 +1,4 @@
-import { longest_palindrome } from "./katas/rank-4/longest-palindrome.js";
+import { decode, encode } from "./katas/rank-3/integer-to-nested-structure.js";
 
-console.log(longest_palindrome("banana"));
+console.log(encode(9999991));
+console.log(decode(2115705627));
