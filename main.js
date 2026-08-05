@@ -1,4 +1,3 @@
-import { decode, encode } from "./katas/rank-3/integer-to-nested-structure.js";
+import { spiralize } from "./katas/rank-3/make-a-spiral.js";
 
-console.log(encode(9999991));
-console.log(decode(2115705627));
+console.log(spiralize(5));
