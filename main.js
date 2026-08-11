@@ -1,3 +1,3 @@
-import { spiralize } from "./katas/rank-3/make-a-spiral.js";
+import { properFractions } from "./katas/rank-4/proper-fractions.js";
 
-console.log(spiralize(5));
+console.log(properFractions(2));
