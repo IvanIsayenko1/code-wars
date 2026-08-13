@@ -1,3 +1,3 @@
-import { properFractions } from "./katas/rank-4/proper-fractions.js";
+import { dblLinear } from "./katas/rank-4/twice-linear.js";
 
-console.log(properFractions(2));
+console.log(dblLinear(50));
