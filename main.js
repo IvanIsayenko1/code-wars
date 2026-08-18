@@ -1,3 +1,4 @@
-import { formatDuration } from "./katas/rank-4/format-duration.js";
+import { solution } from "./katas/rank-4/strip-comments.js";
 
-console.log(formatDuration(60));
+console.log(solution("#aa bb cc", ["#"]));
+// console.log(solution("aa # bb\ncc dd", ["#"]));
