@@ -1,4 +1,3 @@
-import { solution } from "./katas/rank-4/strip-comments.js";
+import { add } from "./katas/rank-4/adding-big-numbers.js";
 
-console.log(solution("#aa bb cc", ["#"]));
-// console.log(solution("aa # bb\ncc dd", ["#"]));
+console.log(add("999999999", "1"));
