@@ -1,3 +1,3 @@
-import { add } from "./katas/rank-4/adding-big-numbers.js";
+import { RomanNumerals } from "./katas/rank-4/roman-numerals.js";
 
-console.log(add("999999999", "1"));
+console.log(RomanNumerals.fromRoman("MMVIII"));
