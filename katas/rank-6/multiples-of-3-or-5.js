@@ -1,3 +1,8 @@
+/**
+ * @see https://www.codewars.com/kata/514b92a657cdc65150000006/javascript
+ * @param {number} number
+ * @returns {number}
+ */
 function solution(number) {
   return [
     ...new Set([
