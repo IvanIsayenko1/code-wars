@@ -14,6 +14,11 @@
 //   return fibbCheck[n > 0 ? 1 : 0];
 // }
 
+/**
+ * @see https://www.codewars.com/kata/53d40c1e2f13e331fc000c26/javascript
+ * @param {number} n
+ * @returns {number}
+ */
 export function fib(n) {
   function fastDoubling(n) {
     if (n === 0) {
